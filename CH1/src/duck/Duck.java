@@ -1,3 +1,5 @@
+package duck;
+
 public abstract class Duck {
 	QuackBehavior quackBehavior;
 	FlyBehavior flyBehavior;
@@ -20,5 +22,8 @@ public abstract class Duck {
 	}
 	public void setFlyBehavior(FlyBehavior fb) {
 		flyBehavior = fb;
+	}
+	public void setQuackBehavior(QuackBehavior qb) {
+		quackBehavior = qb;
 	}
 }

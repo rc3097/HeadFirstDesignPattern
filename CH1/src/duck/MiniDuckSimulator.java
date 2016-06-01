@@ -1,3 +1,4 @@
+package duck;
 
 public class MiniDuckSimulator {
 
@@ -5,6 +6,11 @@ public class MiniDuckSimulator {
 		Duck mallarDuck = new MallardDuck();
 		mallarDuck.performQuack();
 		mallarDuck.performFly();
+		
+		Duck model = new ModelDuck();
+		model.performFly();
+		model.setFlyBehavior(new FlyRocketPowered());
+		model.performFly();
 	}
 
 }

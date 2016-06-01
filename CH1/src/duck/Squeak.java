@@ -1,3 +1,4 @@
+package duck;
 
 public class Squeak implements QuackBehavior {
 
