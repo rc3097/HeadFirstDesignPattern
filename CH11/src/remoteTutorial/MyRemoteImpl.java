@@ -22,5 +22,6 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 	}
 }
